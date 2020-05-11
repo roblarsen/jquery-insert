@@ -1,0 +1,22 @@
+{
+  "name": "jquery-insert",
+  "version": "0.0.1",
+  "description": "a script to insert the jQuery snippet from H5BP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblarsen/jquery-insert.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roblarsen/jquery-insert/issues"
+  },
+  "homepage": "https://github.com/roblarsen/jquery-insert#readme",
+  "dependencies": {
+    "jsdom": "^16.2.2"
+  }
+}
