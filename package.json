@@ -4,12 +4,7 @@
   "description": "a script to insert the jQuery snippet from H5BP",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "start": "npm run build && node dist/index.js",
-    "dev": "npm run build && nodemon dist/index.js",
-    "test": "echo \"No tests specified\"",
-    "ship": "npm run build && npm publish"
+    "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",
@@ -22,15 +17,9 @@
   },
   "homepage": "https://github.com/roblarsen/jquery-insert#readme",
   "dependencies": {
-    "jquery": "^3.5.1",
-    "@types/node": "^12.7.3",
+    "html5-boilerplate": "^7.3.0",
+    "jquery": "3.5.1",
     "jsdom": "^16.2.2",
-    "nodemon": "^1.19.1",
-    "tslint": "^6.1.2",
-    "typescript": "^3.6.2",
-    "typings": "^2.1.1"
-  },
-  "devDependencies": {
-    "@types/jsdom": "^16.2.1"
+    "ssri": "^8.0.0"
   }
 }
